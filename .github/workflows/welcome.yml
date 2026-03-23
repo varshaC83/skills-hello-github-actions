@@ -15,7 +15,7 @@ jobs:
     name: Post welcome comment
     runs-on: ubuntu-latest
 
-    name: Post welcome comment
+name: Post welcome comment
 on:
   pull_request:
     types: [opened]
