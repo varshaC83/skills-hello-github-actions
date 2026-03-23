@@ -14,8 +14,7 @@ jobs:
   welcome:
     name: Post welcome comment
     runs-on: ubuntu-latest
-
-name: Post welcome comment
+    name: Post welcome comment
 on:
   pull_request:
     types: [opened]
@@ -30,3 +29,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
+
+
